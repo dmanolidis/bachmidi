@@ -1,7 +1,7 @@
 # bachmidi
 ## An analysis of Bach's works using midi files
 
-In this analysis, we rank the notes and chords used in the works of J.S Bach. Furthermore, we identify the most used  progressions of chords. Finally, we group works in clusters, according to their chords.
+In this analysis, we rank the notes and chords used in the works of J.S Bach. Furthermore, we identify the most used  progressions of chords. Finally, we group works in clusters, according to their chords. For a discussion of the results of this code, please take a look at this [article](https://towardsdatascience.com/bachs-favorite-note-b0542ba4f8f5)
 
 The `creat-csv.sh` script converts a *.midi* file to a *.csv* file with the help of `mid2asc` script. The code of `mid2asc` was copied from [this site](http://www.archduke.org/midi/). Only the compiled file is included here.
 
